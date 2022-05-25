@@ -1,0 +1,134 @@
+body{
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    margin: 40px;
+}
+
+.header{
+    background-color: red;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 10px;
+    line-height: 70px;
+}
+
+.nav-menu-item {
+    list-style: none;
+}
+
+.nav-menu-item a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 10px;
+    margin-left: 10px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-family: Shadows Into Light, cursive;
+    
+}
+
+.nav-menu li a:hover {
+    background: #ef8354;
+    
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px rgba(99, 98, 100);
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px rgb(63, 62, 65);
+}
+
+img {
+    width: 100%;
+    height: 40%;
+}
+
+button {
+    margin-bottom: 20px;
+    font-family: Shadows Into Light, cursive;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    width : 80%;
+    border: none;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.card h3 {
+    font-size: 25px;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.h2-newProduct{
+    color:red;
+    font-family: Shadows Into Light, cursive
+}
+
+.container-newProduct{
+    width: 50%;
+}
+
+.h2-newProduct{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
